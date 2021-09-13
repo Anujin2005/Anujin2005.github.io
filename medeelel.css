@@ -1,0 +1,64 @@
+body{
+    background-image: url(../image.png);
+    background-size:100%;
+    margin:0;
+}
+p{
+  font-size:20px;
+  text-align: justify;
+}
+
+.content{
+    margin:10px;
+    background-color:rgb(231, 225, 225);
+    border-radius: 5px;
+}
+.huwaari{
+    margin:10px;
+}
+
+.hayg{
+    margin:10px;
+}
+
+.BAR{
+    background-color: rgb(1, 7, 29);
+    padding:5px ;
+    padding-top: 0px;
+    height: 33px;
+}
+
+.BAR ul{
+     padding:0px;
+     margin:0px;
+    display: flex;
+    list-style-type: none;
+}
+
+.BAR li{
+    padding:10px;
+    color:white;
+    cursor: pointer;
+    margin: 0;
+}
+.cc{
+    background-color: rgb(241, 54, 85);
+}
+
+.huwaari , .hayg{
+    display:inline-block;
+    background-color: rgba(38, 91, 236 , 0.1);
+    border-radius: 10px;
+    margin:2px 50px;
+    padding: 10px;
+
+}
+
+h2{
+    font-size:30px;
+}
+@media (max-width:600px) {
+    p{
+        text-align: justify;
+    }
+}
